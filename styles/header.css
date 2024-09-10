@@ -1,0 +1,21 @@
+header {
+
+  h1 {
+    margin-bottom: 20px;
+    margin-top: 8px;
+  }
+  
+  p {
+    margin-bottom: 80px;
+    display: grid;
+    justify-content: center;
+  }
+
+}
+
+span {
+  margin-top: 56px;
+  display: grid;
+  justify-items: center;
+}
+

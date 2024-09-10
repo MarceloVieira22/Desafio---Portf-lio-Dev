@@ -1,0 +1,15 @@
+section {
+ 
+  background-image: url(../assets/Background_Intro.png);
+  background-size: cover;
+  
+
+}
+
+.estilo-ul {
+  list-style: none;
+  display: flex;
+  width: 114px;
+  height: 44px;
+  gap: 16px;
+}
