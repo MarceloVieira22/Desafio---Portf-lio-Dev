@@ -5,17 +5,41 @@ header {
     margin-top: 8px;
   }
   
-  p {
+  .p-intro  {
+    display: flex;
+    justify-self: center;
+    text-align: center;
     margin-bottom: 80px;
-    display: grid;
-    justify-content: center;
+    max-width: 680px;
+    width: 100%;
+    
   }
 
 }
 
-span {
+.span-intro  {
+  
   margin-top: 56px;
-  display: grid;
-  justify-items: center;
+
+}
+
+.header-projeto {
+  
+  width: fit-content ;
+  margin: 0 auto;
+  
+  h3 {
+    
+    color:#E3646E;
+    padding-bottom: 8px;
+    text-align: center;
+    
+    
+    
+
+  }
+
+  
+  
 }
 
