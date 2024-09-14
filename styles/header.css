@@ -29,17 +29,28 @@ header {
   margin: 0 auto;
   
   h3 {
-    
+    padding-top: 144px;
     color:#E3646E;
     padding-bottom: 8px;
     text-align: center;
-    
-    
-    
 
   }
 
   
   
+}
+
+.header-services {
+  width: fit-content ;
+  margin: 0 auto;
+  
+  h3 {
+    padding-top: 144px;
+    color:#E3646E;
+    padding-bottom: 8px;
+    text-align: center;
+
+  }
+
 }
 
