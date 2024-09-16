@@ -17,6 +17,14 @@
 --sb-title: 400 20px/120% var(--secondary-font);
 --text-sm: 400 14px/140%  var(--third-font);
 --text-md: 400 16px/140%  var(--third-font);
+--text-contact: 400 16px/160% var(--third-font);
+
+  
+}
+.text-contact {
+
+  font: var(--text-contact);
+  color: #C4C4CC;
 
   
 }
@@ -91,25 +99,30 @@ color: var(--gray-600);
   
  
   
-  img {
+ 
+  
+  
+}
+
+.container-header img:nth-child(1) {
+
+    
     border: 1px solid #E3646E;
     border-radius: 50px;
     padding: 3px;
     width: 87.27px;
     height: 87.27px;
   }
-  
-  
-  
-  
- 
-  
-  
-}
+    
 
 .sb-marina {
   color: #E3646E;
   font: var(--secondary-font);
 
+}
+
+.sb-contato {
+  font: var(--sb-title);
+  color: #BB72E9;
 }
 

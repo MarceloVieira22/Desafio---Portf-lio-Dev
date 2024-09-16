@@ -9,10 +9,14 @@
 .projeto {
   
   background-color: #16181D;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 
 }
 
 .projetos-container {
+  gap: 12px;
   max-width: 1040px;
   max-height: 584px;
   display: grid;
@@ -23,6 +27,11 @@
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
   margin-top: 56px;
+  margin-bottom: 122px;
+ 
+  
+  
+  
   
   
  
@@ -30,12 +39,16 @@
 
 }
 .projeto-item {
-  gap: 24px;
-  margin-bottom: 24px;
+  h5 {
+    margin-top: 20px;
+  }
+
+
+  padding: 12px;
   img {
-    width: 306px;
+    width: 100%;
     height: 156px;
-    padding: 12px 12px 20px 12px;
+    
     }
  
   max-width: 330px;
@@ -87,17 +100,103 @@
 .services {
   background-color: #0D0E11;
   width: 100%;
-  height: 100%;
+  height: 480px;
 }
 
 .services-p {
+  margin: 0 auto;
+  gap: 24px;
+  display: flex;
+  margin-top: 56px;
   max-width: 888px;
   max-width: 155;
+  margin-bottom: 120px;
   
 }
 
 .services-item {
- border: 1px solid;
- width: fit-content;
+  
+  padding: 20px;
+  max-width: 280px;
+  height: 155px;
+  border: 1px solid #16181D;
+  width: fit-content;
  
+  img {
+    padding-bottom: 20px;
+  } 
+  
+  h5 {
+    padding-bottom: 8px;
+  }
+
 }
+
+.contato {
+  padding-top: 128px;
+  padding-bottom: 200px;
+  background-image: url(/assets/Background_Contacts.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.link {
+  
+  margin: 0 auto;
+  max-width: 400px;
+  max-height: 320px;
+  display: flex;
+  flex-flow: column;
+}
+
+.link-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
+  width: 400px;
+  height: 68px;
+  border-radius: 10px;
+  border: solid #292C34;
+  background-color: #292C34;
+
+
+  span {
+   position: absolute;
+   padding: 18px 52px 23px 60px ;
+    width:288px;
+    height: 22px;
+  
+  }
+}
+
+
+.link-item img:nth-child(1) {
+  display: block;
+    width: 28px;
+    height: 28px;
+    margin: 18px 352px 23px 23px;
+
+}
+
+.link-item img:nth-child(3) {
+  position: absolute;
+  box-sizing: content-box;
+  padding-top: 20px;
+  padding-left: 360px;
+  width: 20px;
+  height: 20px;
+}
+
+.link div:nth-child(4) {
+  margin-bottom: 200px;
+  
+}
+
+.img-code {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+

@@ -54,3 +54,23 @@ header {
 
 }
 
+.header-contato {
+width: fit-content;
+margin: 0 auto;
+display: flex;
+flex-flow: column;
+justify-content: center;
+align-items: center;
+padding-bottom:48px;
+
+}
+
+.header-contato:nth-child(1) {
+  margin-top: 128px;
+  margin-bottom: 8px;
+}
+
+.person-image-container {
+  position: relative;
+}
+
